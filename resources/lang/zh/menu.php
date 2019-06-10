@@ -1,0 +1,63 @@
+<?php
+
+return [
+	'DASHBOARD' => '仪表板',
+	'COINS' => '硬币',
+	'COINS_LIVE_WATCH' => '硬币直播观看',
+	'TOP_COINS' => '顶级硬币',
+	'TOP_GAINERS' => '最佳赢家',
+	'TOP_LOSERS' => '最大的输家',
+	'HIGH_LOW_COINS' => '前高后低',
+	'EXCHANGES' => '交易所',
+	'NEWS' => '新闻',
+	'ARCHIVE_NEWS' => '档案新闻',
+	'ICOS' => 'ICO\的',
+	'ACTIVE_ICOS' => '有效的ICO\'s',
+	'UPCOMING_ICOS' => '即将到来ICO\'s',
+	'FINISHED_ICOS' => '完成ICO\'s',
+	'FEATURED_ICOS' => '特色ICO\'s',
+	'SEARCH_COIN' => '搜索一枚硬币...',
+	'PRIVACY_POLICY' => '隐私政策',
+	'TERMS_CONDITIONS' => '条款和条件',
+	'FAQS' => '常见问题解答',
+	'COPYRIGHT' => '版权',
+	'ALL_RIGHTS' => '版权所有',
+	'SEARCH' => '搜索',
+	'ACTIVE_CRYPTOCURRENCIES' => 'Cryptocurrencies',
+	'MARKETS' => '市场',
+	'MARKET_CAP' => '市值',
+	'24h_VOLUME' => '24小时',
+	'MINING_EQUIPMENT' => '采矿设备',
+	'BUY_SELL' => '立即买/卖',
+	'BLOCKEXPLORER' => '比特币Blockexplorer',
+
+	'PRICE_CHART' => '价格图表',
+	'HIGH_LOW_CHART' => '高/低价格图表',
+	'PRICE_HISTORY' => '历史数据',
+	'CHARTS' => '图表',
+	
+	'DAY' => '天',
+	'DAYS' => '天',
+	'MONTH' => '月',
+	'MONTHS' => '月',
+	'6_MONTHS' => '月',
+	'YEAR' => '年',
+	'YEARS' => '年份',
+	'ALL' => '所有',
+
+ 	'SOCIAL_FEED' => '社会', 
+	'USEFUL_LINKS' => '有用的链接', 
+	'MORE' => '更多', 
+	'VIEW_ALL' => '查看全部', 
+ 	'GET_SOCIAL_CONNECTED' => '在社交网络上与我们联系!', 
+	'CONVERTER' => '货币换算', 
+	'WIDGETS' => '网站小部件', 
+	'TOOLS' => '工具', 
+	'PRICE_CHART' => '价格图表',
+
+	//new
+	//
+	'BLOG' => '博客',
+	'BLOG_POSTS' => '博客帖子',
+
+];

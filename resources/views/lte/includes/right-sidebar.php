@@ -1,0 +1,3 @@
+<div class="tab-content">
+    <div class="tab-pane" id="control-sidebar-home-tab"></div>
+</div>

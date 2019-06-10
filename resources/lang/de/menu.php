@@ -1,0 +1,63 @@
+<?php
+
+return [
+	'DASHBOARD' => 'Instrumententafel',
+	'COINS' => 'Münzen',
+	'COINS_LIVE_WATCH' => 'Münzen Live Watch',
+	'TOP_COINS' => 'Top Münzen',
+	'TOP_GAINERS' => 'Top-Gewinner',
+	'TOP_LOSERS' => 'Top Verlierer',
+	'HIGH_LOW_COINS' => 'Hoch / niedrig',
+	'EXCHANGES' => 'Börsen',
+	'NEWS' => 'Nachrichten',
+	'ARCHIVE_NEWS' => 'Archiv News',
+	'ICOS' => 'ICO\'s',
+	'ACTIVE_ICOS' => 'Active ICO\'s',
+	'UPCOMING_ICOS' => 'Bevorstehende ICO\'s',
+	'FINISHED_ICOS' => 'Fertig ICO\'s',
+	'FEATURED_ICOS' => 'Vorgestellt ICO\'s',
+	'SEARCH_COIN' => 'Suche eine Münze...',
+	'PRIVACY_POLICY' => 'Datenschutz-Bestimmungen',
+	'TERMS_CONDITIONS' => 'Geschäftsbedingungen',
+	'FAQS' => 'FAQs',
+	'COPYRIGHT' => 'Urheberrechte ©',
+	'ALL_RIGHTS' => 'Alle Rechte vorbehalten',
+	'SEARCH' => 'Suche',
+	'ACTIVE_CRYPTOCURRENCIES' => 'Kryptowährungen',
+	'MARKETS' => 'Märkte',
+	'MARKET_CAP' => 'Marktkapitalisierung',
+	'24h_VOLUME' => '24h Vol',
+	'MINING_EQUIPMENT' => 'Bergbauausrüstung',
+	'BUY_SELL' => 'Sofort kaufen / verkaufen',
+	'BLOCKEXPLORER' => 'Bitcoin Blockexplorer',
+
+	'PRICE_CHART' => 'Preistabelle',
+	'HIGH_LOW_CHART' => 'Hoch / Niedrig Preis Chart',
+	'PRICE_HISTORY' => 'Historische Daten',
+	'CHARTS' => 'Diagramme',
+	
+	'DAY' => 'Tag',
+	'DAYS' => 'Tage',
+	'MONTH' => 'Monat',
+	'MONTHS' => 'Monate',
+	'6_MONTHS' => 'Monate',
+	'YEAR' => 'Jahr',
+	'YEARS' => 'Jahre',
+	'ALL' => 'Alles',
+
+ 	'SOCIAL_FEED' => 'Sozial', 
+	'USEFUL_LINKS' => 'Nützliche Links', 
+	'MORE' => 'Mehr', 
+	'VIEW_ALL' => 'Alle ansehen', 
+ 	'GET_SOCIAL_CONNECTED' => 'Verbinden Sie sich mit uns in sozialen Netzwerken!', 
+	'CONVERTER' => 'Währungsrechner', 
+	'WIDGETS' => 'Website-Widgets', 
+	'TOOLS' => 'Werkzeuge', 
+	'PRICE_CHART' => 'Preistabelle',
+
+	//new
+	//
+	'BLOG' => 'Blog',
+	'BLOG_POSTS' => 'Blogeinträge',
+
+];

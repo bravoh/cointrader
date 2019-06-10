@@ -1,0 +1,145 @@
+<?php
+
+return [
+
+	'MINING_POOL' => '采矿池',
+	'MINING_POOLS' => '采矿池',
+	'POOL_WEBSITE' => '泳池网站',
+	'MERGED_MINING' => '合并采矿',
+	'SHARED_FEE' => 'Tx. 费用与矿工共享',
+	'FEATURED' => '精选',
+	'COINS' => '支持的硬币',
+	'LOCATIONS' => '服务器位置',
+	'PAYMENTS' => '付款类型',
+	'POOL_FEATURES' => '泳池特色',
+	'PAYOUT' => '采矿池最低支出',
+	'AVERAGE_FEE' => '平均费用',
+	'EXPANDED_FEE' => '费用扩大',
+	'RELATED_POOLS' => '相关采矿池',
+	'MERGED_MINING_COINS' => '合并采矿硬币',
+	'MINING_POOLS_DESC' => '加密货币挖掘池的详细列表在一个地方详细说明，使您可以轻松查看池是否有利于处理。 他们的服务和服务器是否为您提供最佳可行功能，费用是否过高，您是否通过使用某个池获得最佳交易，以了解哪些是最好的替代方案.',
+
+	'RELATED_POOLS_DESC' => '相关加密货币挖掘池列表，使您可以轻松查看池是否有利于处理。 他们的服务和服务器是否为您提供最佳可行功能，费用是否过高，您是否通过使用某个池获得最佳交易，以了解哪些是最好的替代方案.',
+
+	'MINING_POOL_DESC' => ':name 位于 :locations 你可以用它来开采 :coins. 它支持 :payment_types 付款方式，这个池收取的平均费用非常低，只是 :average_fee 而且费用扩大了 :fee_expanded . 它提供了 :pool_features 特征。 确实如此 :not 支持合并采矿和交易费用 :doesnot 与矿工分享。 采矿池最低支出是 :minimum_payout . 你可以关注这个游泳池 <a href="">Twitter</a> 以及您可以从他们的探索更多细节和设置指南 <a target="_blank" href=" :affiliate_url " rel="nofollow noopener">网站</a>.',
+
+	'MINING_POOL_SEO_DESC' => ':name 位于 :locations 你可以用它来开采 :coins. 它支持 :payment_types 付款方式，这个池收取的平均费用非常低，只是 :average_fee 而且费用扩大了 :fee_expanded . 它提供了 :pool_features 特征。 确实如此 :not 支持合并采矿和交易费用 :doesnot 与矿工分享。 采矿池最低支出是 :minimum_payout .',
+
+	'HASHRATE_PAGE_TITLE' => '比特币分布分布',
+	'HASHRATE_PAGE_DESC' => '显示最受欢迎的比特币采矿池过去10天的市场份额。 它包括市场上最大的比特币采矿池。 看一下采矿池清单，今天就开始使用比特币现金或比特币核心采矿.',
+
+
+	'WALLETS' => '钱包',
+	'WALLET' => '钱包',
+	'WALLET_WEBSITE' => '钱包网站',
+	'ANONYMITY' => '匿名',
+	'HAS_ATTACHED_CARD' => '附卡',
+	'HAS_TRADING' => '交易设施',
+	'HAS_OFFER' => '优惠券和优惠',
+	'WALLET_FEATURES' => '钱包功能',
+	'PLATFORMS' => '平台',
+	'VALIDATION_TYPE' => '验证类型',
+	'EASE_OF_USE' => '便于使用',
+	'SOURCE_CODE_URL' => '源代码',
+	'RELATED_WALLETS' => '相关钱包',
+	'WALLETS_SEO_TITLE' => '加密货币钱包',
+	'WALLETS_DESC' => '加密货币挖掘池的详细列表在一个地方详细说明，使您可以轻松查看池是否有利于处理。 他们的服务和服务器是否为您提供最佳可行功能，费用是否过高，您是否通过使用某个池获得最佳交易，以了解哪些是最好的替代方案.',
+
+	'RELATED_WALLETS_DESC' => '相关加密货币钱包列表，方便您查看钱包是否有利于处理。 他们的服务和优惠是否适用于您。 你是否通过使用某个钱包获得了最好的交易，知道什么是最好的选择.',
+
+	'WALLET_DESC' => ':name 支持 :coins. 这个钱包提供 :personal 安全和 :anonymity 匿名。 钱包支持 :wallet_features 功能和 :platforms 平台。 它提供 :validation 验证和 :ease_of_use 便于使用. 您可以从他们的网站浏览更多详细信息和设置指南 <a target="_blank" href=" :affiliate_url " rel="nofollow noopener">网站</a>.',
+
+	'WALLET_SEO_DESC' => ':name 支持 :coins. 这个钱包提供 :personal 安全和 :anonymity 匿名。 钱包支持 :wallet_features 功能和 :platforms 平台。 它提供 :validation 验证和 :ease_of_use 便于使用.',
+
+	'EVENTS' => '活动',
+	'EVENT' => '事件',
+	'UPCOMING_EVENTS' => '接下来的活动',
+	'RELATED_EVENTS' => '相关事件',
+	'EVENTS_DESC' => '加密货币事件列表。 请浏览最新和即将举行的加密货币事件，其中包括区块链技术，比特币，以太坊，加密令牌和初始硬币产品.',
+	'RELATED_EVENTS_DESC' => '相关加密货币事件的列表。 请浏览最新和即将举行的加密货币事件，其中包括区块链技术，比特币，以太坊，加密令牌和初始硬币产品.',
+
+	'ICO_STATUS' => '状态',
+	'RELATED_ICOS' => '相关的ICO',
+	'RELATED_ICOS_DESC' => '相关初始硬币产品（ICO）列表。 以下列表包含加密投资者的最新ICO和新令牌众筹，以及此列表提供了一个概述，以表明哪个ICO适合/值得投资.',
+	'ICOS_PAGE' => '初始硬币产品（ICO）',
+	'ICOS_DESC' => '活动和真实初始硬币产品（ICO）的完整列表。 以下列表包含加密投资者的最新ICO和新令牌众筹，以及此列表提供了一个概述，以表明哪个ICO适合/值得投资.',
+
+	'RELATED_COINS' => '相关硬币',
+
+	'ADVERTISE' => '广告',
+	'ADVETISE_TITLE' => '宣传您的业务',
+	'ADVETISE_SEO_TITLE' => '为您的业务做广告 ' . setting('site.site_name'),
+	'ADVETISE_SEO_DESC' => '通过宣传您的业务，覆盖全球最大和最好的加密货币受众 ' . setting('site.site_name') . ' - 点击此处立即联系!',
+	'ADVETISE_DESC_1' => '正在成为世界领先者',
+	'ADVETISE_DESC_2' => '新闻',
+	'ADVETISE_DESC_3' => '提供',
+	'ADVETISE_DESC_4' => '实时加密货币价格更新',
+	'ADVETISE_DESC_5' => '验证和真实',
+	'ADVETISE_DESC_6' => '加密钱包',
+	'ADVETISE_DESC_7' => '和',
+	'ADVETISE_DESC_8' => '区块链事件',
+	'ADVETISE_DESC_9' => '我们的网站访问流量，包括金融科技高管，技术企业家和投资者，数字货币交易商，政府机构的立法者和监管机构，以及主要技术出版物的记者。 请发邮件给我们以获取更多详细信息.',
+	'WHY_ADVERTISE' => '为何与我们一起做广告?',
+	'REASON_1' => '全球前20大加密货币新闻门户网站',
+	'REASON_2' => '一个由专家记者组成的团队，负责报道来自世界各地的新闻报道',
+	'REASON_3' => '原创的，广泛研究的病毒内容',
+	'REASON_4' => '在各种社交渠道上与我们互动的忠诚和活跃的用户群',
+	'REASON_5' => '知名粉丝，从加密爱好者到行业专家',
+	'REASON_6' => '以客户为中心，快速周转',
+	'REASON_7' => '汇总各种加密货币新闻机构，以便不断更新我们遍布全球的访客',
+	'WHAT_OFFER' => '我们提供什么?',
+	'WHAT_OFFER_DESC' => '我们根据客户的需求和要求创建自定义广告系列，这可能包含以下多种组合.',
+	'OFFER_1' => '赞助内容',
+	'OFFER_2' => '新闻稿',
+	'OFFER_3' => '独家视频访谈',
+	'OFFER_4' => '横幅广告',
+	'OFFER_5' => 'ICO上市',
+	'AUDIENCE' => '听众',
+	'AUDIENCE_1' => '每月超过0.5百万独立访客',
+	'AUDIENCE_2' => '每月超过100万页面浏览量',
+	'AUDIENCE_3' => 'Facebook，Twitter和Telegram上的订阅者',
+	'AUDIENCE_4' => '1000多个新闻通讯订阅者',
+	'HOW_ADVERTISE' => '如何做广告?',
+	'HOW_ADVERTISE_DESC' => '联系我们',
+	'PHISING' => '网络钓鱼警告',
+	'PHISING_DESC' => '可能有人冒充我们。 当您收到我们这边的电子邮件时，请仔细查看电子邮件地址',
+
+	'CONTACT_US' => '联系我们',
+	'CONTACT_SEO_DESC' => '如果您想提供或接收有关Cryptocurrencies价格更新，新闻，区块链或成为研究合作伙伴的任何信息，请随时与我们联系。 有关广告可用性，ICO广告，付费文章提交或横幅广告的信息.',
+	'SUBMIT' => '提交',
+	'SUCCESS_CONTACT' => '您的查询已成功发送.',
+
+	'REGISTER_NOW' => '现在注册',
+	'ADDRESS' => '地址',
+	'VENUE' => '地点',
+	'EMAIL' => '电子邮件',
+	'ORGANIZED_BY' => '举办',
+	'EVENT_DATE' => '活动日期',
+	'EVENT_TYPE' => '事件类型',
+
+	'EVENTS_SEO_TITLE' => '区块链会议活动',
+	'EVENTS_SEO_DESC' => '浏览最新和即将推出的加密货币事件，涵盖区块链技术，比特币，以太币，代币和初始硬币产品.',
+
+	'SUPPORT' => '支持',
+
+	'CONTACT_US_DESC_1' => '如果您想提供或接收有关Cryptocurrencies价格更新，新闻，区块链或成为研究合作伙伴的任何信息，请随时与我们联系。 有关广告可用性，ICO广告，付费文章提交或横幅广告的信息，请查看详细信息',
+	'CONTACT_US_DESC_2' => '这里',
+	'CONTACT_US_DESC_3' => '如果您有加密货币新闻提示或提醒，建议，希望为我们写信，发送客串文章或想成为本网站的内容撰稿人，请通过以下联系表格或在',
+
+	'INQUIRY_TYPE' => '查询类型',
+
+	'MESSAGE' => '信息',
+	'GENERAL' => '一般询问',
+	'AD' => '广告',
+	'BUG_REPORT' => '错误报告',
+	'MAX' => '最多2000个字符',
+
+
+	'SEO_DESC14' => '得到',
+	'SEO_DESC15' => '通过将其添加到您的',
+	'SEO_DESC16' => '最爱',
+	'SEO_DESC17' => '并创造一个免费的',
+	'SEO_DESC18' => '投资组合',
+	'SEO_DESC19' => '如果你希望',
+	
+];

@@ -1,0 +1,255 @@
+:root {
+    --night-theme-color: #131313;
+    --night-theme-text-color: #9e9e9e;
+    --night-theme-hover-color: #2b2b2b;
+    --night-theme-border-color:#252525!important;
+}
+body{
+	background-color: var(--night-theme-color) !important;color: #9e9e9e !important;
+}.white,#dataTables-example_info {
+    background: unset !important;color:#fff !important;
+}
+.ui.toggle.checkbox input:checked~.box, .ui.toggle.checkbox input:checked~label,.ui.checkbox label, .ui.checkbox+label,.ui.toggle.checkbox .box, .ui.toggle.checkbox label {
+    color: #959595 !important;
+}
+
+
+.panel-default {
+    border-color: #252525 !important;
+}.ui.simple.dropdown.item {
+    color: #fff !important;
+}input.btn.btn-lg.btn-primary.btn-block {
+    background: #02b5ad!important;;
+    color: #fff !important;
+    border-color: #1e1e1e !important;
+}.rc-anchor-light.rc-anchor-normal {
+    border: 1px solid #252525!important;;
+}
+.rc-anchor-light {
+    background: #141414!important;;
+    color: #ddd!important;;
+}.ui.segment {
+    background: #1e1e1e !important;
+}.navbar-header,#dataTables-example_info,#footer-Section,.panel-body.all-currencies-page.top-currencies-page.live em {
+    background: #1d1d1d !important;
+    color: #9e9e9e;
+    border-color: #252525;
+}.latest_post_container, .single_post_content, .technology, .single_sidebar {
+    background: #1d1d1d !important;
+}.single_sidebar ul li a {
+    border-bottom: 1px solid #959595;
+    display: block;
+}.footer-top-layout, .ui.segment,.top-triangle-social-bar {
+    background: #1d1d1d !important;
+    color: #959595 !important;
+    border-color: #252525 !important;
+}.label, .value, .item, .header {
+    color: #959595 !important;
+}.ui.label.simple.dropdown.item, .sidebar-nav {
+    color: #fff !important;background-color: #1d1d1d !important;
+}.ui.label {
+    color: #222 !important;
+}.ui.simple.active.dropdown>.menu, .ui.simple.dropdown:hover>.menu {
+     background: #131313 !important;
+}.info-box {
+    background: #1d1d1d;
+    border: 1px solid #343434;
+    overflow: hidden;
+    border-radius: 0;
+    margin-bottom: -1px;
+}.info-label {
+    background: #131313;
+    font-size: 11px;
+    color: #444;
+    font-weight: 700;
+    border-bottom: 1px solid #343434;
+}
+.top-triangle-social-bar-content a {color: white!important;}
+.copyright-tag {
+    border-top: 1px solid #252525;
+       color: #9e9e9e;
+}
+.dropdown.open,ul.dropdown-menu {
+    background: #1d1d1d !important;
+}.dropdown-menu .divider {
+    background-color: #252525 ;
+}.panel-heading{border-color:#252525!important;background-color: #1d1d1d !important;color:#9e9e9e!important;}
+.navbar-top-links li a {
+    text-align: center;
+    border-right: 1px solid #252525;
+    color: #9e9e9e !important;
+}
+
+.navbar-default {
+    border-right: 1px solid #252525;
+    border-left: 1px solid #252525;
+    border-color:#252525!important;
+}
+.top-bar-data.ui.top.attached.segment {
+    background: #1d1d1d !important;
+    border-color: #252525 !important;
+}
+.footer-top-layout {
+    background: unset !important;
+    
+}
+ul.nav.navbar-top-links {
+    background: #1d1d1d !important;
+    border-color: #ccc;
+}
+body, a, 
+div.dataTables_filter input,
+div.mobile-search-bar .results.transition.visible a,
+div.cct-form-btn input {
+	color: var(--night-theme-text-color) !important;
+}
+ul.dropdown-menu a {
+	border: unset;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover,ul.navbar-top-links li a.active, 
+ul.navbar-top-links a:hover, 
+.table-hover>tbody>tr:hover, 
+span.top-bar-currencies-list .top-currency-dropdown .item:hover, 
+span.top-bar-currencies-list .top-language-dropdown .item:hover, 
+div.sidebar-nav li a.active, 
+div.single-coin-details,
+.nav>li>a:focus, .nav>li>a:hover,
+div.mobile-search-bar .results.transition.visible a:hover,
+span.user-account-settings li a:hover,
+div.mining_equipments-page .ui.primary.button:hover,
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	background-color: var(--night-theme-hover-color) !important;
+}
+
+.custom-pagination{background-color: #1d1d1d !important;
+    border-left: 1px solid #252525;
+    border-top: 1px solid #252525;
+    border-bottom: 1px solid #252525;}
+
+div.single-news-page-wrapper button, 
+div#icos-table_wrapper button
+div.single-news-page-wrapper button,
+div#icos-table_wrapper button {
+	background-color: var(--night-theme-color) !important;
+	border: 1px solid #252525 !important;
+}span.day-night-mode {
+    background: #131313 !important;
+    color: #9e9e9e !important;
+    border-color: #252525 !important;
+}
+#morris-donut-chart text {
+	fill: var(--night-theme-text-color) !important;
+}.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #1b1b1b;
+    border-color: #252525;
+}
+ul.navbar-top-links,
+table thead, 
+ul.pagination span, 
+ul.pagination li a, 
+ul.custom-pagination,
+.navbar-default,
+#page-wrapper,
+.panel-body,
+.custom-header-ad,
+.custom-footer-ad,
+.top-bar-data, 
+span.top-bar-currencies-list .ui.floating.dropdown,
+span.top-bar-currencies-list .menu.transition.visible,
+span.top-bar-currencies-list .top-currency-dropdown,
+span.top-bar-currencies-list .top-currency-dropdown .item,
+span.top-bar-currencies-list .top-language-dropdown,
+span.top-bar-currencies-list .top-language-dropdown .item,
+ul.navbar-top-links li.search input,
+div.mobile-search-bar input, 
+select,
+span.user-account-settings,
+span.user-account-settings li,
+.buy-sell-btn button,
+div.profile-account-reg-msg .alert-warning {
+    color: #9e9e9e !important;
+    border-color: #252525 !important;
+}
+span.top-bar-currencies-list .ui.floating.dropdown, ul.navbar-top-links li.search input, div.mobile-search-bar input, span.user-account-settings, div.cct-form-btn input, div.mining_equipments-page .ui.primary.button, .buy-sell-btn button, div.profile-account-reg-msg .alert-warning {
+    border: 1px solid #252525 !important;
+    background: #131313;
+}
+div.mining_equipments-page .ui.primary.button {
+	border-radius: 5px !important;
+}
+span.top-bar-currencies-list .top-currency-dropdown .item,
+span.top-bar-currencies-list .top-language-dropdown .item,
+ul li.ui.search .results.transition.visible a,
+div.mobile-search-bar .results.transition.visible a, {
+	border-bottom: 1px solid #252525 !important;
+	border-right: unset;
+}
+.form-control,.pagination>li>a, .pagination>li>span,.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
+    color: #777;
+    background-color: #1d1d1d;
+    border-color: #252525;
+}
+thead,.blockfolio-records {
+    background: #1d1d1d!important;}
+.even {
+    background: #131313 !important;
+}
+.odd {
+    background: #101010;
+}
+.table-bordered {
+    border: 1px solid #252525;
+}
+.well, 
+.slick-track div {
+	background-color: #555;
+}
+table.dataTable thead .sorting:after, 
+ul.navbar-top-links li.search input, 
+div.mobile-search-bar input, 
+div.mobile-search-bar i.icon, 
+li.search .icon,
+ul li.ui.search .results.transition.visible .title,
+div.mobile-search-bar .results.transition.visible .title,
+span.user-account-settings li a,
+div.profile-account-reg-msg .alert-warning{
+	color: var(--night-theme-text-color) !important;
+   
+    border-color: #252525 !important;
+}
+ul li.ui.search .results.transition.visible,
+div.mobile-search-bar .results.transition.visible {
+	border: unset;
+}
+tbody.crypto-currencies-data tr.up {
+	background-color: green;
+}.panel {
+    background: #222 !important;
+}table tr {
+    border-bottom: 1px solid #1d1d1d;
+}.panel-default>.panel-heading {
+    border-bottom: 1px solid #252525 !important;
+}
+tbody.crypto-currencies-data tr.down {
+	background-color: darkred;
+}
+.footer-menu-items a {
+    color: #00b5ad !important;
+}
+.slick-prev:before, .slick-next:before,
+span.user-account-settings i {
+	color: var(--night-theme-text-color) !important;
+}
+.add-watchlist.favorite {
+  color: goldenrod !important;
+}
+ul.navbar-top-links ul.dropdown-menu li i{
+  color: var(--night-theme-text-color);
+}.panel.panel-default.live {
+    background: none !important;
+   
+}.ui.four.item.borderless.menu {
+    background: #1d1d1d;
+    border: 1px solid #252525;
+}.logo-lg{display:none;}.logo-night{display:inline-block}
+.card{background-color: #1d1d1d !important;color:#00827c !important;}
