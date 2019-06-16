@@ -15,7 +15,7 @@ function() {
 	Route::get('/crypto-exchanges', 'Web\CryptoExchangesController@index');
 
     Route::get('/crypto-exchange', 'Web\ExchangeController@index');
-    Route::get('tbc-exchange', 'Web\ExchangeController@tbcExchange');
+    Route::get('tbc-exchange', 'Web\ExchangeController@tbcExchange')->middleware('auth');
     Route::get('/crypto-receive-rates', 'Web\ExchangeController@receive_rates');
     Route::match(['get'],'/change/{pair_id}', 'Web\ExchangeController@change');
     Route::match(['post'],'/change', 'Web\ExchangeController@change')->name("bitChange");
