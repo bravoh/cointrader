@@ -23,6 +23,7 @@ class UserController extends Controller
 		if(Auth::user()) {
 			return redirect('/');
 		}
+
 		$rules = [
 		    'email'    => 'required|email',
 		    'password' => 'required|min:3',
@@ -75,9 +76,11 @@ class UserController extends Controller
 		        ->withInput(Input::except('password')); 
 		} else {
 		    if ($user = User::create(request(['name', 'email', 'role_id', 'newsletter', 'password']))) {
-		    	if(request('newsletter') == 1) {
+
+		        if(request('newsletter') == 1) {
 		    		NewsLetter::updateOrCreate(request(['email']));
 		    	}
+
 		    	$this->sendRegistrationVerificationEmail($user);
 		    	Auth::login($user);
         		return redirect(makeUrl('user/profile'));
@@ -91,14 +94,19 @@ class UserController extends Controller
 
 	public function sendRegistrationVerificationEmail($user)
 	{
-		$user->token = md5(time() . '-' . rand(0, 99999));
-		$user->save();
-		$data = ['user' => $user];
-    	Mail::send('emails.registration_email', $data, function ($message) use ($user) {
-		    $message->from(env('MAIL_EMAIL_ADDRESS'), setting('site.site_name'));
-		    $message->subject(__('user.REGISTRATION_COMPLETED'));
-		    $message->to($user->email);
-		});
+	    try{
+            $user->token = md5(time() . '-' . rand(0, 99999));
+            $user->save();
+            $data = ['user' => $user];
+
+            Mail::send('emails.registration_email', $data, function ($message) use ($user) {
+                $message->from(env('MAIL_EMAIL_ADDRESS'), setting('site.site_name'));
+                $message->subject(__('user.REGISTRATION_COMPLETED'));
+                $message->to($user->email);
+            });
+        }catch (\Exception $exception){
+
+        }
 	}
 
 	public function verify()
