@@ -66,13 +66,16 @@
                         <a href="{{ makeUrl('crypto-ico/active') }}">@lang('menu.ACTIVE_ICOS')</a>
                     </p>
                     <p>
-                        <a href="{{ makeUrl('cryptocurrency-converter') }}">@lang('menu.CONVERTER')</a>
+                        <a href="{{ makeUrl('crypto-exchange') }}">@lang('menu.CONVERTER')</a>
+                    </p>
+{{--                    <p>--}}
+{{--                        <a href="{{ makeUrl('user/blockfolio') }}">@lang('user.USER_BLOCKFOLIO')</a>--}}
+{{--                    </p>--}}
+                    <p>
+                        <a href="{{ makeUrl('crypto-exchange') }}">@lang('menu.BUY_SELL')</a>
                     </p>
                     <p>
-                        <a href="{{ makeUrl('user/blockfolio') }}">@lang('user.USER_BLOCKFOLIO')</a>
-                    </p>
-                    <p>
-                        <a href="{{ makeUrl('buy-sell-cryptocoins') }}">@lang('menu.BUY_SELL')</a>
+                        <a href="{{ makeUrl('tbc-exchange') }}">TBC Exchange</a>
                     </p>
                 </div>
                 <div class="col-md-2">
@@ -127,12 +130,12 @@
                         @endif 
                 </div>
             </div>
-            @if(setting('social.play_store') != 'N/A')
-            <a href="{{ setting('social.play_store') }}" target="_blank" style="text-decoration: none;">
-                <img alt="download cryptocurrency mobile app" title="download cryptocurrency mobile app" src="{{ URL::asset('public/images/google-play.png') }}" width="165">
-            </a>
-            <br />
-            @endif
+{{--            @if(setting('social.play_store') != 'N/A')--}}
+{{--            <a href="{{ setting('social.play_store') }}" target="_blank" style="text-decoration: none;">--}}
+{{--                <img alt="download cryptocurrency mobile app" title="download cryptocurrency mobile app" src="{{ URL::asset('public/images/google-play.png') }}" width="165">--}}
+{{--            </a>--}}
+{{--            <br />--}}
+{{--            @endif--}}
             <span>@lang('menu.COPYRIGHT') © {{date("Y")}} @lang('constants.WEBSITE_NAME'). @lang('menu.ALL_RIGHTS').</span></div>
     </footer>
 </div>
