@@ -1,11 +1,18 @@
-<a href="javascript:" id="return-to-top"><i class="angle up icon"></i></a> 
-@include(getCurrentTemplate() . ".includes.footer-three-column" ) 
+<a href="javascript:" id="return-to-top"><i class="angle up icon"></i></a>
+@include(getCurrentTemplate() . ".includes.footer-three-column" )
 <div id="myModal" class="modal fade" role="dialog" style="z-index: 99999;">
     <div class="modal-dialog">
         <div class="modal-content" style="color: black; text-align: center;">
+
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h6 class="modal-title"><strong>Donate <span class="donate-coin">BTC</span></strong></h6></div>
+                <h6 class="modal-title">
+                    <strong>Donate
+                        <span class="donate-coin">BTC</span>
+                    </strong>
+                </h6>
+            </div>
+
             <div class="modal-body">
                 <p class="donate-coin-addr" style="font-size: 20px;word-wrap: break-word;"></p>
                 <p class="donate-coin-qr"></p>
@@ -20,7 +27,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
 <script src="{{ URL::asset('public/js/custom-js/common.js') }}"></script>
 <script src="{{ URL::asset('public/js/scroll_top_button.js') }}"></script>
-<script src="{{ URL::asset('public/js/cookieconsent/cookieconsent.min.js') }}" async></script> 
+<script src="{{ URL::asset('public/js/cookieconsent/cookieconsent.min.js') }}" async></script>
 <script type="text/javascript">
 $('.ui.dropdown').dropdown();
 $(document).ready(function(){

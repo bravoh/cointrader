@@ -1,12 +1,12 @@
 <div class="top-triangle-social-bar">
   <div class="top-triangle-social-bar-content">
-      <span style="float: left;text-align: left;">
-        <a title="@lang('menu.DASHBOARD')" href="{{ makeUrl('/dashboard') }}">@lang('menu.DASHBOARD')</a>
-        <a title="@lang('v7.EVENTS')" href="{{ makeUrl('events') }}">@lang('v7.EVENTS') </a>
-        <a title="@lang('v5.MINING_POOLS')" href="{{ makeUrl('mining-pools') }}">@lang('v5.MINING_POOLS')</a>
-        <a title="@lang('v7.WALLETS')" href="{{ makeUrl('wallets') }}">@lang('v7.WALLETS')</a>
-        <a title="@lang('v7.ADVERTISE')" href="{{ makeUrl('advertise') }}">@lang('v7.ADVERTISE')</a>
-      </span>
+    {{--      <span style="float: left;text-align: left;">--}}
+    {{--        <a title="@lang('menu.DASHBOARD')" href="{{ makeUrl('/dashboard') }}">@lang('menu.DASHBOARD')</a>--}}
+    {{--        <a title="@lang('v7.EVENTS')" href="{{ makeUrl('events') }}">@lang('v7.EVENTS') </a>--}}
+    {{--        <a title="@lang('v5.MINING_POOLS')" href="{{ makeUrl('mining-pools') }}">@lang('v5.MINING_POOLS')</a>--}}
+    {{--        <a title="@lang('v7.WALLETS')" href="{{ makeUrl('wallets') }}">@lang('v7.WALLETS')</a>--}}
+    {{--        <a title="@lang('v7.ADVERTISE')" href="{{ makeUrl('advertise') }}">@lang('v7.ADVERTISE')</a>--}}
+    {{--      </span>--}}
     <span style="float: right;margin-right: -10px;">
       @if(setting('social.facebook') != 'N/A')<a href="{{ setting('social.facebook') }}" target="_blank">Facebook</a>@endif
       @if(setting('social.twitter') != 'N/A')<a href="{{ setting('social.twitter') }}" target="_blank">Twitter</a>@endif
@@ -20,19 +20,25 @@
   <span class="dropdown-global">
   <div class="ui label simple dropdown item" tabindex="0">
     <span class="top-bar-market-cap">
-      <strong>@lang('menu.MARKET_CAP'):</strong> <span class="data" rel="{{ preg_replace('/[^0-9,.]/', '', str_replace(',', '', $global_data->total_market_cap_usd)) }}"></span>  <i class="dropdown icon"></i>
+      <strong>@lang('menu.MARKET_CAP'):</strong>
+      <span class="data" rel="{{ preg_replace('/[^0-9,.]/', '', str_replace(',', '', $global_data->total_market_cap_usd)) }}"></span>
+      <i class="dropdown icon"></i>
     </span>
+
     <div class="menu" tabindex="-1" style="z-index: 999999999999;border-radius: unset;">
       <div class="item info-label">
           <span class="top-bar-day-vol">
-            <strong>@lang('menu.24h_VOLUME'):</strong> <span class="data" rel="{{ preg_replace('/[^0-9,.]/', '', str_replace(',', '', $global_data->total_24h_volume_usd)) }}"></span>
+            <strong>@lang('menu.24h_VOLUME'):</strong>
+            <span class="data" rel="{{ preg_replace('/[^0-9,.]/', '', str_replace(',', '', $global_data->total_24h_volume_usd)) }}"></span>
           </span>
       </div>
       <div class="item info-label">
-        <strong>@lang('menu.ACTIVE_CRYPTOCURRENCIES'):</strong> <span class="data">{{ $total_markets }}</span>
+        <strong>@lang('menu.ACTIVE_CRYPTOCURRENCIES'):</strong>
+        <span class="data">{{ $total_markets }}</span>
       </div>
       <div class="item info-label">
-        <strong>@lang('menu.MARKETS'):</strong> <span class="data">{{ $global_data->active_markets }}</span>
+        <strong>@lang('menu.MARKETS'):</strong>
+        <span class="data">{{ $global_data->active_markets }}</span>
       </div>
     </div>
   </div>

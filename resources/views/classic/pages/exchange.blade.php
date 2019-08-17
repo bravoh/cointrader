@@ -448,20 +448,20 @@
         <div class="col-md-4">
             <div class="card">
                 <div class="card__header card__header--minimal">
-                    <h2>Awesome <b>Testimonials</b></h2>
+                    <h2><b>Testimonials</b></h2>
                 </div>
 
-                <div class="card__body">
-                    <div class="col-xs-12">
-                        <blockquote>
-                            E-currency Exchange, the best exchangers among others and around the world, I got my BTC within 30 mins I vouch for them 100% very fast , reliable and trusted!!!!<br>
-                            <small>from <a href="javascript:void(0);">Steve</a></small>
-                        </blockquote>
-                        <blockquote>
-                            TBC finally got a trusted exchanger, just did it in a minute, great job guys, i'll recommend you any day to the whole world<br>
-                            <small>from <a href="javascript:void(0);">worldcutestguy</a></small>
-                        </blockquote>
-                    </div>
+                <div style="font-size: 14px" class="card__body">
+                    <p>
+                        E-currency Exchange, the best exchangers among others and around the world, I got my BTC within 30 mins I vouch for them 100% very fast , reliable and trusted!!!!<br>
+                        <small>from <a href="javascript:void(0);">Steve K</a></small>
+                    </p>
+
+                    <p>
+                        TBC finally got a trusted exchanger, just did it in a minute, great job guys, i'll recommend you any day to the whole world<br>
+                        <small>from <a href="javascript:void(0);">Jack Wilha</a></small>
+                    </p>
+
                 </div>
             </div>
         </div>

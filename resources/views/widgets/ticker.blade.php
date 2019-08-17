@@ -12,6 +12,8 @@ span.image img {width: 32px;float: left;}
 .trademark{text-align: center;border: 1px solid #ccc; border-radius:5px; padding: 10px;}
 .trademark a {color: #<?php echo $_GET['hcolor'] ?? '232323'; ?>; text-decoration: none;"}
 </style>
+
+
 <div class="ticker">
 	<table cellpadding="0" cellspacing="0">
 		<thead>
@@ -37,9 +39,9 @@ span.image img {width: 32px;float: left;}
 				</td>
 				<td class="right">
 					@if($market->price_usd < 0.0999)
-						${{ number_format($market->price_usd, 4) }} 
+						${{ number_format($market->price_usd, 4) }}
 					@else
-						${{ number_format($market->price_usd, 3) }} 
+						${{ number_format($market->price_usd, 3) }}
 					@endif
 					<br />
 					<span class="small-text">

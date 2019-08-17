@@ -9,6 +9,8 @@ span.image img {width: 35px;float: left;}
 .border-right {border-right: 1px solid #ccc;}
 .trademark a {color: #<?php echo $_GET['hcolor'] ?? '232323'; ?>; text-decoration: none;"}
 </style>
+
+
 <div class="ticker">
 	<div class="header" style="padding: 10px;">
 		<span class="image">
@@ -16,12 +18,12 @@ span.image img {width: 35px;float: left;}
 		</span>
 		<span style="padding: 10px;">{{ $market->name }} ({{ $market->symbol }})</span> <br />
 		<span class="small-text">
-			24h Vol: 
+			24h Vol:
 			@if(number_format($market->volume_usd_day/1000000000, 2) > 0)
 				${{ number_format($market->volume_usd_day/1000000000, 2) }} B
 			@else
-				${{ number_format($market->volume_usd_day) }} 
-			@endif 
+				${{ number_format($market->volume_usd_day) }}
+			@endif
 		</span>
 	</div>
 	<div class="inner">
@@ -52,9 +54,10 @@ span.image img {width: 35px;float: left;}
 					<span style="color: red;">{{ $market->percent_change_day }}% &darr;</span>
 				@endif
 			</span>
-		</span> 
+		</span>
 	</div>
 	<div class="small-text trademark">
 		<a href="{{ URL::to('/') }}" target="_blank">Powered by @lang('constants.WEBSITE_NAME')</a>
 	</div>
 </div>
+

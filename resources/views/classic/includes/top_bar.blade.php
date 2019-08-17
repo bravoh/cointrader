@@ -2,8 +2,8 @@
  <div class="ui four item borderless menu" style="margin-top: 0; padding-top: 0; padding-bottom: 0;">
   <div class="col-sm-3 border-right item">
    <i class="big dollar sign icon"></i>
-   <div class="description-block">
 
+   <div class="description-block">
     <div class="description-header top-bar-market-cap">
      <span rel="{{ preg_replace('/[^0-9,.]/', '', str_replace(',', '', $global_data->total_market_cap_usd)) }}"></span>
     </div>
@@ -12,6 +12,7 @@
    </div>
 
   </div>
+
   <div class="col-sm-3 border-right item">
    <i class="big signal icon"></i>
    <div class="description-block">
@@ -20,6 +21,7 @@
     </div><span class="description-text">@lang('menu.24h_VOLUME')</span>
    </div>
   </div>
+
   <div class="col-sm-3 border-right item">
    <i class="big chart pie icon"></i>
    <div class="description-block">

@@ -1,3 +1,4 @@
+
 <script src="{{ URL::asset('public/bower_components/jquery/dist/jquery.min.js') }}"></script>
 <script src="{{ URL::asset('public/js/raphael/raphael.min.js') }}"></script>
 <link href="{{ URL::asset('public/css/morris/morris.css') }}" rel="stylesheet">
@@ -5,7 +6,7 @@
 <script type="text/javascript">
 $(document).ready(function() {
 	cryptoDominanceDonut({!! $dominance_data !!});
-});	
+});
 function cryptoDominanceDonut(response)
 {
     $("#morris-donut-chart").html('');

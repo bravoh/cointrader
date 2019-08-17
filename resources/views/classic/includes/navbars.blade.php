@@ -8,7 +8,11 @@
         </button>
 
         <div class="ui search focus mobile-search-bar">
-            <img title="@lang('constants.WEBSITE_NAME') logo" alt="@lang('constants.WEBSITE_NAME') logo" src="{{ URL::asset('public/storage/') . '/' . setting('site.site_small_logo')  }}" height="40" width="40" class="mobile"/><div class="ui icon input"><input class="prompt" type="text" placeholder="@lang('menu.SEARCH_COIN')..." autocomplete="off"><i class="search icon"></i></div>
+            <img title="@lang('constants.WEBSITE_NAME') logo" alt="@lang('constants.WEBSITE_NAME') logo" src="{{ URL::asset('public/storage/') . '/' . setting('site.site_small_logo')  }}" height="40" width="40" class="mobile"/>
+            <div class="ui icon input">
+                <input class="prompt" type="text" placeholder="@lang('menu.SEARCH_COIN')..." autocomplete="off">
+                <i class="search icon"></i>
+            </div>
         </div>
     </div>
     @include(getCurrentTemplate() . '.includes.topbar')

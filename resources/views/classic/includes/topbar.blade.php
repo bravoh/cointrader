@@ -1,7 +1,16 @@
 <ul class="nav navbar-top-links">
+
+{{--    <li>--}}
+{{--        <a title="All Coin" href="{{ makeUrl('/') }}" @if(Request::is( '*/')) class="active" @endif>--}}
+{{--            <i class="fa fa-money fa-fw"></i><br />--}}
+{{--            Home--}}
+{{--        </a>--}}
+{{--    </li>--}}
+
 {{--    <li>--}}
 {{--        <a title="All Coin" href="{{ makeUrl('currencies') }}" @if(Request::is( '*/currencies')) class="active" @endif>--}}
-{{--            <i class="fa fa-money fa-fw"></i><br />Currencies--}}
+{{--            <i class="fa fa-money fa-fw"></i><br />--}}
+{{--            Currencies--}}
 {{--        </a>--}}
 {{--    </li>--}}
     <li>
@@ -26,10 +35,10 @@
 {{--        <a title="@lang('menu.NEWS') " href="{{ makeUrl('crypto-coins-news-headlines') }}" @if(Request::is([ '*/crypto-coins-news-headlines', '*/crypto-news/*'])) class="active" @endif>--}}
 {{--            <i class="fa fa-newspaper-o fa-fw"></i><br />@lang('menu.NEWS') </a>--}}
 {{--    </li>--}}
-    <li>
-        <a title="@lang('menu.BLOG')" href="{{ makeUrl('blog') }}" @if(Request::is( '*/blog')) class="active" @endif>
-            <i class="fa fa-slack fa-fw"></i><br /> @lang('menu.BLOG')</a>
-    </li>
+{{--    <li>--}}
+{{--        <a title="@lang('menu.BLOG')" href="{{ makeUrl('blog') }}" @if(Request::is( '*/blog')) class="active" @endif>--}}
+{{--            <i class="fa fa-slack fa-fw"></i><br /> @lang('menu.BLOG')</a>--}}
+{{--    </li>--}}
 {{--    <li>--}}
 {{--        <a title="@lang('user.USER_BLOCKFOLIO')" href="{{ makeUrl('user/blockfolio') }}" @if(Request::is([ '*/blockfolio'])) class="active" @endif>--}}
 {{--            <i class="fa fa-bank fa-fw"></i><br />@lang('user.USER_BLOCKFOLIO') </a>--}}

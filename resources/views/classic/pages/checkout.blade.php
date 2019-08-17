@@ -112,7 +112,7 @@
     <script src="{{ URL::asset('public/js/bitexchanger.js') }}"></script>
 
     <!-- Include the PayPal JavaScript SDK -->
-    <script src="https://www.paypal.com/sdk/js?client-id=AeUetr4mIaW3BgcaJeJcVZUx8Jy-OZlwPVC1mq2uLG8huJJPniREe5X8qESvdo4CBJmiwI6UNy8CiuJz&currency=USD"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=Aao9H96gD6--_l9BDgGu_SrQtM5ggI6vlW5LhwqW-RsS2wCnu4tcmKujPTwSonj-KCv4075h_z3gBhPA=USD"></script>
 
     <script>
         // Render the PayPal button into #paypal-button-container
